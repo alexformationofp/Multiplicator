@@ -52,10 +52,11 @@ a {
 body {
   font-family: 'pigment_demo';
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   background-image: url(../img/background1.jpg);
   background-size: auto cover;
-  color: white; }
+  color: white;
+  margin: 10px; }
 
 h1 {
   font-size: 8vw;
@@ -89,5 +90,11 @@ input[type=submit] {
   margin: 0 auto;
   width: 200px;
   margin-top: 10px; }
+
+ul li {
+  padding-bottom: 20px; }
+
+.bouton {
+  justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */
