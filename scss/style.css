@@ -46,4 +46,48 @@ a {
   text-decoration: none;
   color: inherit; }
 
+@font-face {
+  font-family: "pigment_demo";
+  src: url("../fonts/pigment_demo-webfont.woff"); }
+body {
+  font-family: 'pigment_demo';
+  text-align: center;
+  font-size: 30px;
+  background-image: url(../img/background1.jpg);
+  background-size: auto cover;
+  color: white; }
+
+h1 {
+  font-size: 8vw;
+  font-weight: 800;
+  padding: 30px;
+  text-transform: uppercase; }
+
+h2 {
+  padding: 10px 20px;
+  font-weight: 800; }
+
+.liste {
+  text-align: left;
+  width: 300px;
+  height: 330px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 40px; }
+
+.choixTable {
+  margin: 0 auto; }
+
+.nombre {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 10px; }
+
+input[type=submit] {
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 10px; }
+
 /*# sourceMappingURL=style.css.map */
