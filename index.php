@@ -14,7 +14,7 @@
     <h1>Multiplicator</h1>
     <h2>Choisissez la table à afficher</h2>
 
-    <form action="table.php" method="post">
+    <form class="flexindex" action="table.php" method="post">
         <div class="container">
             <div class="choixTable">
                 <div class="nombre">
