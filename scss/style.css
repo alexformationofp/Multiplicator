@@ -1,52 +1,270 @@
-/*
-Error: File to import not found or unreadable: reset.
-       Load path: C:/xampp/htdocs/Multiplicator/scss
-        on line 1 of C:\xampp\htdocs\Multiplicator\scss\style.scss
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX   RESET    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-1: @import 'reset';
-2: @import 'variables';
-3: @import 'mixin';
-4: 
-5: body{
-6:     font-family: 'Love Ya Like A Sister', cursive;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
 
-Backtrace:
-C:\xampp\htdocs\Multiplicator\scss\style.scss:1
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: reset.\A        Load path: C:/xampp/htdocs/Multiplicator/scss\A         on line 1 of C:\xampp\htdocs\Multiplicator\scss\style.scss\A \A 1: @import 'reset';\A 2: @import 'variables';\A 3: @import 'mixin';\A 4: \A 5: body{\A 6:     font-family: 'Love Ya Like A Sister', cursive;"; }
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+body {
+  font-family: 'Love Ya Like A Sister', cursive;
+  background-image: url(../images/nombres.jpg);
+  background-size: contain; }
+
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 10vw;
+  text-align: center;
+  padding: 20px 0; }
+
+h2 {
+  text-align: center;
+  font-size: 6vw; }
+
+.container {
+  background-image: url(../images/ardoise.png);
+  background-size: cover;
+  width: 90%;
+  margin: 20px auto 0;
+  height: 118vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .container .choixTable {
+    padding-top: 15vw;
+    color: white;
+    font-family: 'Love Ya Like A Sister';
+    font-size: 6vw; }
+
+.hop {
+  margin: 20px auto;
+  display: block;
+  font-size: 35px;
+  font-family: 'Love Ya Like A Sister';
+  border-radius: 100%;
+  padding: 17px;
+  border: none;
+  box-shadow: 10px 5px 5px grey; }
+
+@keyframes hvr-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg); }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg); }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg); }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg); }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0); }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0); } }
+.bouton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Love Ya Like A Sister', cursive; }
+  .bouton a {
+    font-size: 6vw;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    margin-top: 20px; }
+    .bouton a:hover {
+      -webkit-animation-name: hvr-buzz-out;
+      animation-name: hvr-buzz-out;
+      -webkit-animation-duration: 0.75s;
+      animation-duration: 0.75s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1; }
+
+.test {
+  font-family: 'Love Ya Like A Sister';
+  text-align: center;
+  font-size: 15vw; }
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .formulaire .tentative {
+    border-radius: 100%;
+    padding: 5px;
+    font-size: 15vw;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Love Ya Like A Sister'; }
+
+.valider {
+  border-radius: 10px;
+  color: white;
+  background-color: transparent;
+  font-family: 'Love Ya Like A Sister';
+  font-size: 7vw;
+  border-color: white;
+  margin: 10px; }
+
+.message {
+  position: absolute;
+  bottom: 25vw;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center; }
+
+.score {
+  position: absolute;
+  bottom: 16vw; }
+
+.relative {
+  position: relative; }
+
+.fin {
+  font-size: 7vw;
+  text-align: center;
+  line-height: 10vw;
+  padding-top: 20vw; }
+
+.nombre input {
+  transition: all .3s ease-in-out; }
+  .nombre input:checked {
+    border: 1px solid blue; }
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 55px; }
+
+  h2 {
+    font-size: 30px; }
+
+  .container {
+    background-image: url(../images/ardoise2.png);
+    background-size: cover;
+    width: 800px;
+    margin: 20px auto 0;
+    height: 599px;
+    /* box-shadow: 10px 5px 5px grey; */
+    /* border-radius: 60px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container .choixTable {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 75%;
+      height: 75%;
+      padding-top: 95px;
+      font-size: 50px; }
+
+  .hop {
+    font-size: 30px; }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%; }
+
+  .bouton a {
+    font-size: 30px; }
+
+  .test {
+    font-size: 75px; }
+
+  .formulaire {
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .formulaire .tentative {
+    font-size: 60px;
+    border: 1px solid white;
+    border-radius: 10%; }
+
+  .score {
+    bottom: 75px;
+    left: 50%;
+    transform: translate(-50%, 0); }
+
+  .message {
+    bottom: 134px;
+    left: 50%;
+    transform: translateX(-50%); }
+
+  .valider {
+    font-size: 50px;
+    margin: 0; }
+
+  #gagner {
+    padding-bottom: 40px; }
+
+  .fin {
+    font-size: 70px;
+    padding-top: 20px;
+    line-height: 125px; } }
+
+/*# sourceMappingURL=style.css.map */

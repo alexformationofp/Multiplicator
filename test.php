@@ -29,7 +29,7 @@ session_start();
                     $score = $_SESSION['score'];
                     $partie = $_SESSION['partie'];
                     if ($essai == $nombre * $mult) {
-                        echo '<p class="message">Gagné !</p>';
+                        echo '<p id ="gagner" class="message">Gagné !</p>';
                         $score++;
                         $partie++;
                     } else {
