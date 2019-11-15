@@ -24,7 +24,8 @@ $_SESSION['partie'] = 0;
     <?php
     echo '<h2>La table de ' . $nombre . '</h2>';
     ?>
-    <div class="container">
+    <div class="flexindex">
+        <div class="container">
         <div class="choixTable">
             <ul>
                 <?php
@@ -39,6 +40,8 @@ $_SESSION['partie'] = 0;
         <a href="index.php">Afficher une autre table</a>
         <a href="test.php">Réviser la table de <?php echo $nombre ?></a>
     </div>
+    </div>
+    
 
 
     <!-- <script src="js/script.js"></script>   -->

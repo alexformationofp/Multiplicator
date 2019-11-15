@@ -18,7 +18,8 @@ session_start();
     <h1>Multiplicator</h1>
     <h2>Révisez la table de <?php $nombre = $_SESSION['nombre'];
                             echo $nombre; ?></h2>
-    <div class="container relative">
+    <div class="flexindex">
+            <div class="container relative">
         <div class="choixTable">
             <?php
             if ($_SESSION['partie'] < 9) {
@@ -57,6 +58,8 @@ session_start();
 
     <div class="bouton">
         <a href="index.php">Afficher une autre table</a>
+
+    </div>
 
     </div>
 
