@@ -81,7 +81,7 @@ h2 {
   display: block;
   font-size: 35px;
   font-family: 'Love Ya Like A Sister';
-  border-radius: 50%;
+  border-radius: 10%;
   padding: 17px;
   border: none;
   cursor: pointer; }
@@ -276,9 +276,7 @@ h2 {
     font-size: 30px;
     width: 105px;
     height: 80px;
-    margin: 0;
-    border-radius: 10%;
-    background-color: #8d8d8d; }
+    margin: 0; }
 
   ul {
     display: flex;
@@ -329,7 +327,6 @@ h2 {
     padding-top: 20px;
     line-height: 125px; } }
 .hop {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
