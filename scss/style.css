@@ -47,6 +47,152 @@ a {
   color: inherit; }
 
 body {
-  font-family: sans-serif; }
+  font-family: 'Love Ya Like A Sister', cursive;
+  background-image: url(../images/nombres.jpg);
+  background-size: contain; }
+
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 10vw;
+  text-align: center;
+  padding: 20px 0; }
+
+h2 {
+  text-align: center;
+  font-size: 6vw; }
+
+.container {
+  background-image: url(../images/ardoise.png);
+  background-size: cover;
+  width: 90%;
+  margin: 20px auto 0;
+  height: 118vw;
+  box-shadow: 10px 5px 5px grey;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .container .choixTable {
+    padding-top: 15vw;
+    color: white;
+    font-family: 'Love Ya Like A Sister';
+    font-size: 6vw; }
+
+.hop {
+  margin: 20px auto;
+  display: block;
+  font-size: 35px;
+  font-family: 'Love Ya Like A Sister';
+  border-radius: 100%;
+  padding: 17px;
+  border: none;
+  box-shadow: 10px 5px 5px grey; }
+
+@keyframes hvr-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg); }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg); }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg); }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg); }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0); }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0); } }
+.bouton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Love Ya Like A Sister', cursive; }
+  .bouton a {
+    font-size: 6vw;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    margin-top: 20px; }
+    .bouton a:hover {
+      -webkit-animation-name: hvr-buzz-out;
+      animation-name: hvr-buzz-out;
+      -webkit-animation-duration: 0.75s;
+      animation-duration: 0.75s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1; }
+
+.test {
+  font-family: 'Love Ya Like A Sister';
+  text-align: center;
+  font-size: 15vw; }
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .formulaire .tentative {
+    border-radius: 100%;
+    padding: 5px;
+    font-size: 15vw;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Love Ya Like A Sister'; }
+
+.valider {
+  border-radius: 10px;
+  color: white;
+  background-color: transparent;
+  font-family: 'Love Ya Like A Sister';
+  font-size: 7vw;
+  border-color: white;
+  margin: 10px; }
+
+.message {
+  position: absolute;
+  bottom: 25vw;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center; }
+
+.score {
+  position: absolute;
+  bottom: 16vw; }
+
+.relative {
+  position: relative; }
+
+.fin {
+  font-size: 7vw;
+  text-align: center;
+  line-height: 10vw;
+  padding-top: 20vw; }
+
+.nombre input {
+  transition: all .3s ease-in-out; }
+  .nombre input:checked {
+    border: 1px solid blue; }
 
 /*# sourceMappingURL=style.css.map */
