@@ -14,16 +14,16 @@
     <h1>Multiplicator</h1>
     <h2>Choisissez la table à afficher</h2>
 
-    <form action="table.php" method="post">
+    <form class="flexindex" action="table.php" method="post">
         <div class="container">
             <div class="choixTable">
                 <div class="nombre">
                     <input type="radio" id="nombre1" name="groupe" value="1" checked>
-                    <label for="nombre1"> table de 1</label>
+                    <label for="nombre1"> Table de 1</label>
                 </div>
                 <?php
                 for ($i = 2; $i < 16; $i++) {
-                    echo '<div class="nombre"><input type="radio" id="nombre' . $i . '" name="groupe" value="' . $i . '"><label for="nombre' . $i . '"> table de ' . $i . '</label></div>';
+                    echo '<div class="nombre"><input type="radio" id="nombre' . $i . '" name="groupe" value="' . $i . '"><label for="nombre' . $i . '"> Table de ' . $i . '</label></div>';
                 }
                 ?>
             </div>
