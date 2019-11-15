@@ -16,8 +16,7 @@ session_start();
     <div class="container">
         <h1>Multiplicator</h1>
 
-        <h2>Révisez la table de <?php $nombre = $_SESSION['nombre'];
-                                echo $nombre; ?></h2>
+        <h2>Révisez la table de <?php $nombre = $_SESSION['nombre'];echo $nombre; ?></h2>
 
         <?php
         if ($_SESSION['partie'] < 9) {
